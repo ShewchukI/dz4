@@ -2,7 +2,7 @@ def factorial(f):
     if f == 0 or f == 1:
         return 1
     else:
-        return n * factorial(f - 1)
+        return f * factorial(f - 1)
 
 
 def is_prime(n):
