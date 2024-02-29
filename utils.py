@@ -12,3 +12,9 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+# utils.py
+def is_power_of_five(a):
+    return a > 0 and (a & (a - 1)) == 0 and a % 5 == 0
+
+
